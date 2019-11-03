@@ -1,6 +1,6 @@
 package appmanager;
 
-public interface Credits {
+public interface Details {
     String googleLogin = ""; // Enter login here
     String googlePassword = "";  // Enter pass here
 }
