@@ -18,6 +18,6 @@ public class TestBase {
     @AfterSuite
     public void closeBrowser() throws InterruptedException {
         appMan.stop();
-        JOptionPane.showMessageDialog(null, "Test already done");
+        JOptionPane.showMessageDialog(null, "Test already done!");
     }
 }
